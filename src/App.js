@@ -19,7 +19,7 @@ const Headline = styled.h1`
 function App() {
   return (
     <Container>
-      <Headline>CONCENTS 32</Headline>
+      <Headline>CONCENTS</Headline>
     </Container>
   )
 }
