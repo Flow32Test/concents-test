@@ -1,0 +1,9 @@
+@font-face {
+  font-family: DinPro;
+  src: url("./fonts/din_pro/D-DIN-PRO-900-Heavy.otf") format("opentype");
+}
+
+@font-face {
+  font-family: SansPro;
+  src: url("./fonts/Source_Sans_Pro/SourceSansPro-Black.ttf") format("truetype");
+}
