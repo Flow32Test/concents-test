@@ -1,6 +1,5 @@
 {
   "name": "concents",
-  "homepage": "http://concents.de/concents32",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
