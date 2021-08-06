@@ -16,30 +16,33 @@ const Container = styled.div`
 `
 
 const HeadlineWrapper = styled.div`
-  border: 15px solid ${props => props.theme.font};
+  border: ${props => props.theme.border} solid ${props => props.theme.font};
   cursor: pointer;
   padding: 50px;
 `
 
 const Headline = styled.h1`
   font-size: 7.5em;
+  line-height: 1em;
   margin: 0;
   text-align: center;
 `
 
 const HeadlineBottomBorder = styled(Headline)`
-  border-bottom: 15px solid ${props => props.theme.font};
+  border-bottom: ${props => props.theme.border} solid ${props => props.theme.font};
   letter-spacing: 9px;
 `
 
 const defaultTheme = {
   background: "#fff",
-  font: "#000"
+  font: "#000",
+  border: "25px"
 }
 
 const invertTheme = {
   font: "#fff",
-  background: "#000"
+  background: "#000",
+  border: "25px"
 }
 
 const App = () => {
