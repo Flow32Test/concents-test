@@ -16,7 +16,7 @@ const Container = styled.div`
 `
 
 const HeadlineWrapper = styled.div`
-  border: ${props => props.theme.border} solid ${props => props.theme.font};
+  border: calc(15px + ${props => props.theme.border}) solid ${props => props.theme.font};
   cursor: pointer;
   padding: 50px;
 `
@@ -36,13 +36,13 @@ const HeadlineBottomBorder = styled(Headline)`
 const defaultTheme = {
   background: "#fff",
   font: "#000",
-  border: "25px"
+  border: ".15em"
 }
 
 const invertTheme = {
   font: "#fff",
   background: "#000",
-  border: "25px"
+  border: ".15em"
 }
 
 const App = () => {
